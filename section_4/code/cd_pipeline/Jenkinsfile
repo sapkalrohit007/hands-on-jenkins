@@ -61,7 +61,7 @@ def buildApp() {
 }
 
 
-def deploy(environment) {
+def deploy(String environment) {
 
 	def containerName = ''
 	def port = ''
